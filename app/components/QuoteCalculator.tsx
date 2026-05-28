@@ -163,7 +163,7 @@ export default function QuoteCalculator() {
                 />
               </div>
               <div>
-                <label className="block fullNametext-gray-400 text-sm mb-2">
+                <label className="block text-gray-400 text-sm mb-2">
                   Phone number
                 </label>
                 <input
@@ -279,7 +279,7 @@ export default function QuoteCalculator() {
             <span className="flex items-center justify-center w-6 h-6 rounded-full bg-gray-700 text-white text-sm font-bold">
               3
             </span>
-            <h2 className="text-white text-lg font-semibold">
+            <h2 className="flex flex-col sm:flex-row sm:gap-2 items-center text-white text-lg font-semibold">
               SERVICES NEEDED{" "}
               <span className="text-gray-500 font-normal text-sm">
                 SELECT ALL THAT APPLY
@@ -436,7 +436,7 @@ export default function QuoteCalculator() {
             <span className="flex items-center justify-center w-6 h-6 rounded-full bg-gray-700 text-white text-sm font-bold">
               6
             </span>
-            <h2 className="text-white text-lg font-semibold">
+            <h2 className="flex flex-col sm:flex-row sm:gap-2 items-start sm:items-center text-white text-lg font-semibold">
               PHOTOS / VIDEOS OF YOUR YARD{" "}
               <span className="text-gray-500 font-normal text-sm">
                 OPTIONAL BUT HELPS ACCURACY
@@ -511,7 +511,7 @@ export default function QuoteCalculator() {
             <span className="flex items-center justify-center w-6 h-6 rounded-full bg-gray-700 text-white text-sm font-bold">
               7
             </span>
-            <h2 className="text-white text-lg font-semibold">
+            <h2 className="flex flex-col sm:flex-row sm:gap-2 items-start sm:items-center text-white text-lg font-semibold">
               ANYTHING ELSE WE SHOULD KNOW?{" "}
               <span className="text-gray-500 font-normal text-sm">
                 OPTIONAL
