@@ -530,7 +530,7 @@ export default function QuoteCalculator() {
         </section>
 
         {/* Instant Estimate Summary */}
-        <section className="p-6 bg-[#0f0f0f]">
+        <section className="p-6">
           <div className="flex items-center gap-2 mb-4">
             <svg
               className="w-5 h-5 text-green-400"
@@ -592,7 +592,8 @@ export default function QuoteCalculator() {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full bg-white hover:bg-gray-100 disabled:bg-gray-700 disabled:text-gray-500 text-black font-semibold py-4 rounded-lg mt-6 transition-all flex items-center justify-center gap-2 text-lg"
+            className="w-full bg-[#ffffff] hover:bg-gray-100 active:bg-gray-200 disabled:bg-gray-700 disabled:text-gray-500 text-black font-semibold py-4 rounded-lg mt-6 transition-all flex items-center justify-center gap-2 text-lg shadow-lg disabled:shadow-none"
+            style={{ backgroundColor: isSubmitting ? "#374151" : "#ffffff" }}
           >
             {isSubmitting ? (
               "Submitting..."
